@@ -1,0 +1,13 @@
+LOOP {
+    IF (SW0) {
+        LD0 = 1;
+        DELAY(25);
+        LD0 = 0;
+        DELAY(75);
+    } ELSE {
+        LD0 = 1;
+        DELAY(75);
+        LD0 = 0;
+        DELAY(25);
+    }
+}
