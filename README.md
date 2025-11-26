@@ -234,15 +234,6 @@ typedef enum {
 - **Memory-Mapped I/O**: Direct PORT access without function call overhead
 - **Label Management**: Unique label generation for control flow
 
-## Future Enhancements
-
-- [ ] Support for arithmetic expressions (`LD0 = SW0 + SW1`)
-- [ ] While loops with conditions (`WHILE (SW0) { ... }`)
-- [ ] PWM hardware support
-- [ ] Function definitions and calls
-- [ ] Variable declarations beyond GPIO
-- [ ] Optimization passes (dead code elimination, constant folding)
-
 ## Course Context
 
 **Course**: Analysis of Programming Languages
